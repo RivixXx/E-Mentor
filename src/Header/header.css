@@ -1,0 +1,32 @@
+.header {
+    background-color: #10B582;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.navigation__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.navigation__links a:not(:last-child) {
+    margin-right: 40px;
+}
+
+.navigation__link {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FDFDFD;
+    border-bottom: 2px dashed transparent;
+    transition: all .3s ease;
+}
+
+.navigation__link:hover {
+    border-bottom: 2px dashed #FA9F42;
+}
+
