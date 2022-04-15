@@ -1,10 +1,10 @@
 import "./MainBtn.css";
 
-function MainBtn() {
+function MainBtn(props) {
     return (
         <div className="btn-wrapper">
             <button className="main-btn" type="button">
-                Все направления
+                {props.name}
             </button>
         </div>
     )

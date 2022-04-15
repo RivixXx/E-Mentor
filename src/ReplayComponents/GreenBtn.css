@@ -1,0 +1,19 @@
+.green-btn {
+    width: 230px;
+    height: 56px;
+    background-color: #10B582;
+    border-radius: 0px 20px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    color: #FDFDFD;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.green-btn:hover {
+    background-color: #0d8f66;
+}

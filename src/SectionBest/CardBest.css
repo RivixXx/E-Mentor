@@ -1,0 +1,16 @@
+.content__right-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    text-align: center;
+    color: #353A5A;
+    padding-top: 15px;
+}

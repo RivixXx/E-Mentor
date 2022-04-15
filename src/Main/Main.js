@@ -1,5 +1,4 @@
-import MainBtn from "../Main/MainBtn";
-import "./MainBtn.css";
+import MainBtn from "../ReplayComponents/MainBtn";
 import "./Main.css";
 
 function Main() {
@@ -22,7 +21,7 @@ function Main() {
                     </div>
                     <h1 className="main-title">Образовательная онлайн-платформа</h1>
                     <p className="main-text">Курсы и видео-лекции по дизайну, копирайтингу, SMM, таргету и многим другим направлениям</p>
-                    <MainBtn />
+                    <MainBtn name="Все направления" />
                 </div> 
                 <div className="main__right">
                     <div className="studies__images right-img">
