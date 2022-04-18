@@ -1,0 +1,50 @@
+.learning__image img {
+    width: 470px;
+    height: 332px;
+    
+}
+
+.learning__image {
+    width: 470px;
+    height: 332px;
+    position: relative;
+    transform-style: preserve-3d;
+}
+
+.learning__image::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px dashed #FDFDFD;
+    top: -30px;
+    right: -30px;
+    border-radius: 0px 80px 0px 0px;
+    transform: translateZ(-1px);
+}
+
+.learning-title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 120%;
+    text-align: left;
+    color: #FDFDFD;
+    margin-top: -30px;
+}
+
+.learning-text{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: left;
+    color: #FDFDFD;
+    width: 478px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
