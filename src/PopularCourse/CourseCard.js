@@ -9,10 +9,13 @@ const cardText = {
 
 function CourseCard(props) {
     return (
-        <div className="card__box">
-            <img src={props.img} alt="Фото курса" title="Лого курса" className="card-img" />
-            <p className="card-text" style={cardText}>{props.text}</p>
-        </div>
+        <> <a href={props.link} style={{ cursor: "pointer" }}>
+                <div className="card__box" style={{ display: "flex", flexDirection: "column", }}>
+                    <img src={props.img} alt="Фото курса" title="Лого курса" className="card-img" />
+                    <p className="card-text" style={cardText}>{props.text}</p>
+                </div>
+            </a>
+        </>
     )
 }
 

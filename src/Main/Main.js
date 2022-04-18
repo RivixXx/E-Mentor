@@ -8,7 +8,7 @@ function Main() {
                 <div className="main__left">
                     <div className="main__social">
                         <a href="#"><img src="./img/icon/facebook.svg" alt="" title="Фейсбук" /></a>
-                        <a href="#"><img src="./img/icon/vk.svg" alt="" title="Вконтакте" /></a>
+                        <a href="https://vk.com/rivix"><img src="./img/icon/vk.svg" alt="" title="Вконтакте" target="_blank" /></a>
                         <a href="#"><img src="./img/icon/instagram.svg" alt="" title="Инстаграм" /></a>
                     </div>
                     <div className="studies__images left-img">
@@ -17,7 +17,7 @@ function Main() {
                 </div> 
                 <div className="main__middle">
                     <div className="middle__logo">
-                        <img src="./img/logo.svg" alt="Лого платформы" />
+                        <img src="./img/logotype1.svg" alt="Лого платформы" />
                     </div>
                     <h1 className="main-title">Образовательная онлайн-платформа</h1>
                     <p className="main-text">Курсы и видео-лекции по дизайну, копирайтингу, SMM, таргету и многим другим направлениям</p>

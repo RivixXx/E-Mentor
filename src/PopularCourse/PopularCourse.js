@@ -19,10 +19,10 @@ function PopularCourse() {
             <div className="course__container" style={{ display: "flex", flexDirection: "column", alignItems: "center", paddingBottom: "120px" }}>
                 <h2 className="course-title" style={courseTitle}>Популярные курсы</h2>
                 <div className="course__card-content" style={{width: "100%", display: "grid", gridTemplateColumns: "1fr 1fr 1fr 1fr", gap: "30px", paddingBottom: "60px"}}>
-                    <CourseCard text = "Motion design" img = "./img/Course/MD.png" />
-                    <CourseCard text = "Таргет в Instagram" img = "./img/Course/TLG.png" />
-                    <CourseCard text = "Эффектные презентации" img = "./img/Course/Presentation.png" />
-                    <CourseCard text = "SMM-стратегия" img = "./img/Course/SMM.png" />
+                    <CourseCard text = "Motion design" img = "./img/Course/MD.png" link = "#"/>
+                    <CourseCard text = "Таргет в Instagram" img = "./img/Course/TLG.png" link = "#"/>
+                    <CourseCard text = "Эффектные презентации" img = "./img/Course/Presentation.png" link = "#"/>
+                    <CourseCard text = "SMM-стратегия" img = "./img/Course/SMM.png" link = "#"/>
                 </div>
                 <GreenBtn name="Все курсы"/>
             </div>
