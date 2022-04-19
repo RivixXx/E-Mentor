@@ -13,6 +13,7 @@ root.render (
       <Routes>
         <Route path="/" element={<App />}/>
         <Route path="/AppPage2" element={<AppPage2 />}/>
+        <Route path="/App" element={<App />}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

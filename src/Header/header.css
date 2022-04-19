@@ -21,7 +21,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 100%;
-    color: #FDFDFD;
+    /* color: #FDFDFD; */
     border-bottom: 2px dashed transparent;
     transition: all .3s ease;
 }

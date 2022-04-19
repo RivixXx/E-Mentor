@@ -1,0 +1,41 @@
+.MDCourse__container {
+    padding-top: 30px;
+}
+
+.MDCourse__content img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    max-width: 100%;
+}
+
+.MDCourse-title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #353A5A;
+}
+
+.MDCourse-title_text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 130%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #353A5A;
+    width: 870px;
+}
+
+.MDCourse-text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #353A5A;
+    padding-top: 25px;
+    width: 800px;
+}

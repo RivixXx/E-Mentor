@@ -1,0 +1,37 @@
+.navigation {
+
+}
+
+.navigation__container {
+    display: flex;
+    height: 15px;
+    margin-top: 10px;
+}
+
+.navigation-title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #353A5A;
+    padding-right: 30px;
+    position: relative;
+}
+
+.navigation-title a {
+    color: #353A5A;
+}
+
+.navigationArrow {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    width: 4px;
+    height: 9px;
+    background-image: url(../../public/img/page2/right.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transform: translateY(-50%);
+}

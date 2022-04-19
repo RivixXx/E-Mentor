@@ -5,7 +5,7 @@ function Header() {
     return (
         <header className="header">
             <div className="header__container">
-                <NavigationPanel />
+                <NavigationPanel color = "#FDFDFD"/>
             </div>
         </header>
     );
