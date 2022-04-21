@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/E-mentor-not_build/static/css/main.b007690e.css",
-    "main.js": "/E-mentor-not_build/static/js/main.99948bc1.js",
-    "index.html": "/E-mentor-not_build/index.html",
-    "static/media/right.svg": "/E-mentor-not_build/static/media/right.fab3ab23c749b38a9604.svg",
-    "static/media/arrowDown.svg": "/E-mentor-not_build/static/media/arrowDown.6e65b2b16da450b71f23.svg",
-    "main.b007690e.css.map": "/E-mentor-not_build/static/css/main.b007690e.css.map",
-    "main.99948bc1.js.map": "/E-mentor-not_build/static/js/main.99948bc1.js.map"
+    "main.css": "/E-Mentor/static/css/main.d3bcc054.css",
+    "main.js": "/E-Mentor/static/js/main.99948bc1.js",
+    "index.html": "/E-Mentor/index.html",
+    "static/media/right.svg": "/E-Mentor/static/media/right.fab3ab23c749b38a9604.svg",
+    "static/media/arrowDown.svg": "/E-Mentor/static/media/arrowDown.6e65b2b16da450b71f23.svg",
+    "main.d3bcc054.css.map": "/E-Mentor/static/css/main.d3bcc054.css.map",
+    "main.99948bc1.js.map": "/E-Mentor/static/js/main.99948bc1.js.map"
   },
   "entrypoints": [
-    "static/css/main.b007690e.css",
+    "static/css/main.d3bcc054.css",
     "static/js/main.99948bc1.js"
   ]
 }
