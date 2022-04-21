@@ -1,4 +1,5 @@
 import MainBtn from "../ReplayComponents/MainBtn";
+import { Link } from "react-router-dom";
 import "./Main.css";
 
 function Main() {
@@ -7,9 +8,9 @@ function Main() {
             <div className="main__container">
                 <div className="main__left">
                     <div className="main__social">
-                        <a href="#"><img src="./img/icon/facebook.svg" alt="" title="Фейсбук" /></a>
-                        <a href="https://vk.com/rivix"><img src="./img/icon/vk.svg" alt="" title="Вконтакте" target="_blank" /></a>
-                        <a href="#"><img src="./img/icon/instagram.svg" alt="" title="Инстаграм" /></a>
+                        <Link to="#"><img src="./img/icon/facebook.svg" alt="" title="Фейсбук" /></Link>
+                        <Link to="https://vk.com/rivix"><img src="./img/icon/vk.svg" alt="" title="Вконтакте" target="_blank" /></Link>
+                        <Link to="#"><img src="./img/icon/instagram.svg" alt="" title="Инстаграм" /></Link>
                     </div>
                     <div className="studies__images left-img">
                         <img src="./img/main/1.png" alt="Титульная картинка" title="Фото учебного процесса" />
@@ -28,7 +29,7 @@ function Main() {
                         <img src="./img/main/2.png" alt="Титульная картинка" title="Фото учебного процесса" />
                     </div>
                     <div className="scroll__down">
-                        <a href="#"><p className="scroll-down">Листайте вниз</p></a>
+                        <Link to="#"><p className="scroll-down">Листайте вниз</p></Link>
                     </div>
                 </div> 
             </div>

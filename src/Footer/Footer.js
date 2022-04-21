@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const socialText = {
     fontFamily: 'Raleway',
     fontStyle: "normal",
@@ -38,43 +40,43 @@ function Footer() {
                     </div>
                     <p className="social-text" style={socialText}>Образовательная онлайн-платформа для развития и тренировки навыков в сфере информационных технологий</p>
                     <div className="social-link">
-                        <a href="#" style={{marginRight: "25px"}}><img src="./img/icon/facebookFooter.svg" alt="" title="Фейсбук" /></a>
-                        <a href="https://vk.com/rivix" style={{marginRight: "25px"}}><img src="./img/icon/vkFooter.svg" alt="" title="Вконтакте" target="_blank" /></a>
-                        <a href="#"><img src="./img/icon/instagramFooter.svg" alt="" title="Инстаграм" /></a>
+                        <Link to="#" style={{marginRight: "25px"}}><img src="./img/icon/facebookFooter.svg" alt="" title="Фейсбук" /></Link>
+                        <Link to="https://vk.com/rivix" style={{marginRight: "25px"}}><img src="./img/icon/vkFooter.svg" alt="" title="Вконтакте" target="_blank" /></Link>
+                        <Link to="#"><img src="./img/icon/instagramFooter.svg" alt="" title="Инстаграм" /></Link>
                     </div>
                 </div>
                 <div className="footer__links-content" style={{ display: "flex", width: "75%"}}>
                     <div className="links__box" style={{ margin: "0 111px 0 100px" }}>
                         <ul>
                             <li className="footer-link" style={mainLinkText}>Обучение</li>
-                            <a href="#"><li className="footer-link" style={linkText}>Курсы</li></a>
-                            <a href="#"><li className="footer-link" style={linkText}>Вебинары</li></a>
-                            <a href="#"><li className="footer-link" style={linkText}>Тренажеры</li></a>
-                            <a href="#"><li className="footer-link" style={linkText}>Воркшопы</li></a>
+                            <Link to="#"><li className="footer-link" style={linkText}>Курсы</li></Link>
+                            <Link to="#"><li className="footer-link" style={linkText}>Вебинары</li></Link>
+                            <Link to="#"><li className="footer-link" style={linkText}>Тренажеры</li></Link>
+                            <Link to="#"><li className="footer-link" style={linkText}>Воркшопы</li></Link>
                         </ul>
                     </div>
                     <div className="links__box" style={{ marginRight: "79px" }}>
                         <ul>
                             <li className="footer-link" style={mainLinkText}>О нас</li>
-                            <a href="#"><li className="footer-link" style={linkText}>О платформе</li></a>
-                            <a href="#"><li className="footer-link" style={linkText}>Преподаватели</li></a>
-                            <a href="#"><li className="footer-link" style={linkText}>Тарифы</li></a>
-                            <a href="#"><li className="footer-link" style={linkText}>Отзывы</li></a>
+                            <Link to="#"><li className="footer-link" style={linkText}>О платформе</li></Link>
+                            <Link to="#"><li className="footer-link" style={linkText}>Преподаватели</li></Link>
+                            <Link to="#"><li className="footer-link" style={linkText}>Тарифы</li></Link>
+                            <Link to="#"><li className="footer-link" style={linkText}>Отзывы</li></Link>
                         </ul>
                     </div>
                     <div className="links__box" style={{ marginRight: "68px" }}>
                         <ul>
                             <li className="footer-link" style={mainLinkText}>Контакты</li>
-                            <a href="#"><li className="footer-link" style={linkText}>Связаться с нами</li></a>
-                            <a href="#"><li className="footer-link" style={linkText}>Консультация</li></a>
-                            <a href="#"><li className="footer-link" style={linkText}>Реквизиты</li></a>
-                            <a href="#"><li className="footer-link" style={linkText}>Поддержка</li></a>
+                            <Link to="#"><li className="footer-link" style={linkText}>Связаться с нами</li></Link>
+                            <Link to="#"><li className="footer-link" style={linkText}>Консультация</li></Link>
+                            <Link to="#"><li className="footer-link" style={linkText}>Реквизиты</li></Link>
+                            <Link to="#"><li className="footer-link" style={linkText}>Поддержка</li></Link>
                         </ul>
                     </div>
                     <div className="links__box">
                         <ul>
                             <li className="footer-link" style={mainLinkText}>Возникли вопросы?</li>
-                            <a href="#"><li className="footer-link" style={linkText}>Напишите нам на почту <br/> <span style={{textDecorationLine: "underline", lineHeight: "130%"}}>education@ementor.info</span></li></a>
+                            <Link to="#"><li className="footer-link" style={linkText}>Напишите нам на почту <br/> <span style={{textDecorationLine: "underline", lineHeight: "130%"}}>education@ementor.info</span></li></Link>
                         </ul>
                     </div>
                 </div>
@@ -83,8 +85,8 @@ function Footer() {
                         <p className="copyright-text">E-Mentor © 2021 Все права защищены</p>
                     </div>
                     <div className="footer__offer" style={{display: "flex", alignItems: "center", height: "100%", }}>
-                        <a href="#" style={{color: "#353A5A"}}>Политика обработки персональных данных</a>
-                        <a href="#" style={{marginLeft: "30px", color: "#353A5A"}}>Публичная оферта</a>
+                        <Link to="#" style={{color: "#353A5A"}}>Политика обработки персональных данных</Link>
+                        <Link to="#" style={{marginLeft: "30px", color: "#353A5A"}}>Публичная оферта</Link>
                     </div>
                 </div>
             </div>
