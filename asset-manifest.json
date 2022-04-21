@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/E-mentor-not_build/static/css/main.b007690e.css",
+    "main.js": "/E-mentor-not_build/static/js/main.99948bc1.js",
+    "index.html": "/E-mentor-not_build/index.html",
+    "static/media/right.svg": "/E-mentor-not_build/static/media/right.fab3ab23c749b38a9604.svg",
+    "static/media/arrowDown.svg": "/E-mentor-not_build/static/media/arrowDown.6e65b2b16da450b71f23.svg",
+    "main.b007690e.css.map": "/E-mentor-not_build/static/css/main.b007690e.css.map",
+    "main.99948bc1.js.map": "/E-mentor-not_build/static/js/main.99948bc1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b007690e.css",
+    "static/js/main.99948bc1.js"
+  ]
+}
